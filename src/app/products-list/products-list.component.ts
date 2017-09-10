@@ -1,5 +1,11 @@
 import { Product } from './../product.model';
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import {
+    Component,
+    EventEmitter,
+    Input,
+    OnInit,
+    Output
+} from '@angular/core';
 
 /**
  *  @ProductsList: A component for rendering all ProductRows and
