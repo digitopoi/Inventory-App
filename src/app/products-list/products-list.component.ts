@@ -3,7 +3,6 @@ import {
     Component,
     EventEmitter,
     Input,
-    OnInit,
     Output
 } from '@angular/core';
 
@@ -16,7 +15,7 @@ import {
   selector: 'products-list',
   templateUrl: './products-list.component.html'
 })
-export class ProductsListComponent implements OnInit {
+export class ProductsListComponent {
   /**
    *  @input productList - the Product[] passed to us
    */
@@ -51,7 +50,5 @@ export class ProductsListComponent implements OnInit {
     return product.sku === this.currentProduct.sku;
   }
 
-  ngOnInit() {
-  }
-
 }
+
