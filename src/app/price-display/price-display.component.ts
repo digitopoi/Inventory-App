@@ -15,6 +15,6 @@ import {
   `,
   styleUrls: ['./price-display.component.css']
 })
-export class PriceDisplayComponent implements OnInit {
+export class PriceDisplayComponent {
   @Input() price: number;
 }
